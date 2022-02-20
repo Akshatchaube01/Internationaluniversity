@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    min-height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images1/top.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    flex:1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 12px 8px;
+    position:relative;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.nav-links ul li::after{
+    content:'';
+    width: 0%;
+    height:2px;
+    background:red;
+    display:block;
+    margin:auto;
+    transition:0.5s;
+}
+.nav-links ul li:hover::after{
+    width:100%;
+}
+.text-box{
+    width:90%;
+    color:aliceblue;
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align:center;
+}
+.text-box h1{
+    font-size: 62px;
+    transition: 1s;
+}
+.text-box p{
+    margin:10px 0 40px;
+    font-size: 14px;
+    color: aliceblue;
+}
+
+.text-box h1:hover{
+    color: rgb(176, 236, 236);
+    font-size: 80px;
+}
+
+.vision{
+    display:inline-block;
+    background-color: rgb(218, 247, 247);
+    text-align: center;
+    margin-top: 50px;
+    padding: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 20px;
+    
+}
+.vision:hover{
+    box-shadow: 0 0 20px 0 rgba(5, 68, 150, 0.5);
+}
+.vision h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+.vision h1:hover{
+    font-size: 60px;
+}
+.UD{
+    float:right;
+    padding-left: 20px;
+}
+.UD img{
+    border-radius: 10px;
+    transition: 1s;
+    box-shadow: 0 0 10px 0 rgba(4,9,30,0.7);
+}
+.UD img:hover{
+    box-shadow: 0 0 0 0 rgba(4,9,30,0.7);
+}
+.mission{
+    display: flexbox;
+    text-align: center;
+    margin-top: 50px;
+    background-color:rgb(218, 247, 247);
+    padding: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 20px;
+    
+
+}
+.mission:hover{
+    box-shadow: 0 0 20px 0 rgba(5, 68, 150, 0.5);
+}
+.mission h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+.mission h1:hover{
+    font-size: 60px;
+}
+
+.grad{
+    float: left;
+    padding-right: 20px;
+}
+
+.grad img{
+    border-radius: 10px;
+    transition:1s;
+    box-shadow:0 0 20px 0 rgba(5, 68, 150, 0.5);
+}
+
+.grad img:hover{
+    box-shadow:0 0 0 0 rgba(5, 68, 150, 0.5);
+}
+
+.founder{
+    display: flexbox;
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgb(218, 247, 247);
+    padding: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+.founder:hover{
+    box-shadow: 0 0 20px 0 rgba(5, 68, 150, 0.5);
+}
+.founder h1{
+    transition: 1s;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.founder h1:hover{
+    font-size: 60px;
+}
+
+.masters{
+    float: right;
+    padding-left: 20px;
+}
+
+.masters img{
+    transition:1s;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(5, 68, 150, 0.5);
+}
+
+.masters img:hover{
+    box-shadow: 0 0 0 0 rgba(5, 68, 150, 0.5);
+}
+
+.last{
+    margin-top: 100px;
+    text-align: center;
+}
